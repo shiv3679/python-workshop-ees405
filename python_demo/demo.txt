@@ -1,0 +1,35 @@
+## create conda environments 
+
+conda create --name myenv python=3.8
+conda activate myenv
+
+
+## python native virtual environments
+
+python3 -m venv test_env
+source test_env/bin/activate
+
+-- on windows
+test_env\Scripts\activate
+
+## try and add some cyclic points 
+
+# function to add cyclic points 
+
+def add_cyclic(data, lon):
+    """Add a cyclic point to a data array.
+    Parameters
+    ----------
+    data : array-like
+        An n-dimensional array of data to add a cyclic point to.
+    lon : array-like
+        An array which specifies the coordinate values for
+        `data`'s longitude coordinate.
+    Returns
+    -------
+    The data array with a cyclic point added.
+    """
+    cyclic_data, cyclic_lon = add_cyclic_point(data, coord=lon, axis=-1)
+    return cyclic_data, cyclic_lon
+
+    
