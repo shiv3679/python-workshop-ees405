@@ -1,0 +1,8 @@
+numpy
+xarray
+matplotlib
+cartopy
+scikit-learn
+scipy
+dask
+
