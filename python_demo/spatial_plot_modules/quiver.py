@@ -9,7 +9,7 @@ import cartopy.feature as cfeature
 
 # Load the wind datasets
 uwnd = xr.open_dataset('../../datasets/uwnd.mon.mean.jja.nc')
-vwnd = xr.open_dataset('../../datasets/uwnd.mon.mean.jja.nc')
+vwnd = xr.open_dataset('../../datasets/vwnd.mon.mean.jja.nc')
 
 # Compute the mean over time
 uwnd_mean = uwnd.uwnd.mean(dim='time')
