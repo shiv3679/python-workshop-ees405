@@ -32,7 +32,7 @@ We have provided a Jupyter notebook along with this repository that you can use 
 
 To access the interactive version of the notebook, click on the binder badge below:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shiv3679/python-workshop-ees405/main?labpath=python_workshop.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/shiv3679/python-workshop-ees405/main?urlpath=https%3A%2F%2Fgithub.com%2Fshiv3679%2Fpython-workshop-ees405%2Fblob%2Fmain%2Fpython_workshop.ipynb)
 
 This will launch the notebook in a Binder environment, allowing you to execute and modify the code without needing to install anything on your local machine.
 
