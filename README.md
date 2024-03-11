@@ -9,6 +9,7 @@ This repository contains a collection of Python modules designed to facilitate t
 conda install xarray dask matplotlib cartopy scipy numpy
 ```
 
+
 ```bash
 pip install xarray dask matplotlib cartopy scipy numpy
 ```
